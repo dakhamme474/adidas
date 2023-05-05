@@ -28,14 +28,17 @@ header{
         li{
             list-style: none;
             padding: 15px;
+            
         
             a{
                 text-decoration: none;
                 color: black; 
+                padding: 15px 0;
             }
         }
         li:hover{
            border-bottom: 3px solid;
+           
         }
     }
 }
