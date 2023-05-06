@@ -11143,12 +11143,29 @@ input {
 
 .card:hover {
   border: 1px solid;
+  border-radius: 0;
   cursor: pointer;
 }
 
 .space {
   margin: 70px 0 45px 150px;
   font-weight: 800;
+}
+
+.genre {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+.genre h3, .genre .h3 {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.pic-genre img {
+  width: 400px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,16 @@
+.genre{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    h3{
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 15px;
+    }
+}
+.pic-genre{
+    img{
+        width: 400px;
+        cursor: pointer;
+    }
+}
